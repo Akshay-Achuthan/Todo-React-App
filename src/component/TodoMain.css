@@ -1,0 +1,22 @@
+.card-input{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid rgba(176, 71, 71, 0.708);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card-input:focus-visible{
+  outline: 2px solid rgba(168, 98, 98, 0.708);
+}
+
+.card-button{
+  background-color: rgba(135, 45, 45, 0.708);
+  color: rgba(255, 255, 255);
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 15px 0 0 0;
+  border-radius:5px;
+  cursor: pointer;
+}
