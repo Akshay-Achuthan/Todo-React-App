@@ -1,0 +1,17 @@
+.todo-list {
+  width: 600px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(168, 98, 98, 0.708);
+  margin: 40px auto 0 auto;
+}
+
+.todo-list__items{
+  background-color: rgba(135, 45, 45, 0.708);
+  color: rgba(255, 255, 255);
+  padding: 12px;
+  margin: 0 auto 20px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -3,7 +3,7 @@ import "./TodoMain.css"
 
 import Card from "../UI/Card"
 
-const TodoMain = () => 
+const TodoMain = (props) => 
 {
   const [enteredTask,setEnteredTask] = useState('');
 
@@ -13,6 +13,11 @@ const TodoMain = () =>
   }
 
   const addTaskHandler = () =>{
+    if(enteredTask === "" || enteredTask === null || enteredTask === undefined){
+      return false;
+    }else{
+      props.onUserData(enteredTask);
+    }
     setEnteredTask('');
   }
 
