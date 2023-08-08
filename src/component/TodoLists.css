@@ -7,11 +7,33 @@
   margin: 40px auto 0 auto;
 }
 
+.todo-list ul{
+  padding: 0px !important;
+}
+
 .todo-list__items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgba(135, 45, 45, 0.708);
   color: rgba(255, 255, 255);
   padding: 12px;
   margin: 0 auto 20px 0;
   border-radius: 10px;
+}
+
+.todo-list__button{
+  background-color: rgba(255, 255, 255);
+  color: rgba(135, 45, 45, 0.708);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
   cursor: pointer;
+}
+
+.todo-list__date{
+background-color: rgba(138, 4, 4, 0.76);
+border-radius: 10px;
+padding: 5px;
 }
